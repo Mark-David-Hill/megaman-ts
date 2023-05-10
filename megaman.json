@@ -1,0 +1,712 @@
+{   
+    "gameList": ["mm1", "mm2", "mm3", "mm4", "mm5", "mm6", "mm7", "mm8", "mm9", "mm10", "mm11"],
+    "games": {
+        "mm1": {
+            "id":"mm1",
+            "title":"Mega Man 1",
+            "description":"Mega Man 1 is where the series all started. It introduced many series staples such as choosing the order you complete stages in, gaining abilities from the robot masters you defeat, and a rock-paper-scissors style weapons system.",
+            "console":"NES",
+            "releaseYear":"1987",
+            "boxart":"images/mm1.png",
+            "images": [
+                "images/mm1Title.png",
+                "images/mm1Stages.png"
+            ],
+            "robMasList": [
+                "cut", "guts", "ice", "bomb", "fire", "elec"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"cut",
+                    "name":"Cut Man",
+                    "id":"DLN. 003",
+                    "weapon":"Rolling Cutter"
+                },
+                {
+                    "reference":"guts",
+                    "name":"Guts Man",
+                    "id":"DLN. 004",
+                    "weapon":"Super Arm"
+                },
+                {
+                    "reference":"ice",
+                    "name":"Ice Man",
+                    "id":"DLN. 005",
+                    "weapon":"Ice Slasher"
+                },
+                {
+                    "reference":"bomb",
+                    "name":"Bomb Man",
+                    "id":"DLN. 006",
+                    "weapon":"Hyper Bomb"
+                },
+                {
+                    "reference":"fire",
+                    "name":"Fire Man",
+                    "id":"DLN. 007",
+                    "weapon":"Fire Storm"
+                },
+                {
+                    "reference":"elec",
+                    "name":"Cut Man",
+                    "id":"DLN. 008",
+                    "weapon":"Thunder Beam"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm2": {
+            "id":"mm2",
+            "title":"Mega Man 2",
+            "description":"Mega Man 2 took everything that was good in the first game and made a lot of improvements. It increased the number of robot masters from 6 to 8, added new items that helped with platforming, added a password save feature, and increased the level of overall polish.",
+            "console":"NES",
+            "releaseYear":"1988",
+            "boxart":"images/mm2.png",
+            "images": [
+                "images/mm2Title.png",
+                "images/mm2Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"metal",
+                    "name":"Metal Man",
+                    "id":"DWN. 009"
+                },
+                {
+                    "reference":"air",
+                    "name":"Air Man",
+                    "id":"DWN. 010"
+                },
+                {
+                    "reference":"bubble",
+                    "name":"Bubble Man",
+                    "id":"DWN. 011"
+                },
+                {
+                    "reference":"quick",
+                    "name":"Quick Man",
+                    "id":"DWN. 012"
+                },
+                {
+                    "reference":"crash",
+                    "name":"Crash Man",
+                    "id":"DWN. 013"
+                },
+                {
+                    "reference":"flash",
+                    "name":"Flash Man",
+                    "id":"DWN. 014"
+                },
+                {
+                    "reference":"heat",
+                    "name":"Heat Man",
+                    "id":"DWN. 015"
+                },
+                {
+                    "reference":"wood",
+                    "name":"Wood Man",
+                    "id":"DWN. 016"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm3": {
+            "id":"mm3",
+            "title":"Mega Man 3",
+            "description":"Mega Man 3 was another solid entry, introducing the slide mechanic as well as Mega Man's robotic dog Rush. This was also the first game to feature Proto Man",
+            "console":"NES",
+            "releaseYear":"1990",
+            "boxart":"images/mm3.png",
+            "images": [
+                "images/mm3Title.png",
+                "images/mm3Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"needle",
+                    "name":"Needle Man",
+                    "id":"DWN. 017"
+                },
+                {
+                    "reference":"magnet",
+                    "name":"Magnet Man",
+                    "id":"DWN. 018"
+                },
+                {
+                    "reference":"gemini",
+                    "name":"Gemini Man",
+                    "id":"DWN. 019"
+                },
+                {
+                    "reference":"hard",
+                    "name":"Hard Man",
+                    "id":"DWN. 020"
+                },
+                {
+                    "reference":"top",
+                    "name":"Top Man",
+                    "id":"DWN. 021"
+                },
+                {
+                    "reference":"snake",
+                    "name":"Snake Man",
+                    "id":"DWN. 022"
+                },
+                {
+                    "reference":"spark",
+                    "name":"Spark Man",
+                    "id":"DWN. 023"
+                },
+                {
+                    "reference":"shadow",
+                    "name":"Shadow Man",
+                    "id":"DWN. 024"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm4": {
+            "id":"mm4",
+            "title":"Mega Man 4",
+            "description":"Mega Man 4 Was the first game to feature the charge buster as well as the helper robot Eddie. It also started the tradition of focusing on a villain other than Dr. Wily, in this case Dr. Cossack.",
+            "console":"NES",
+            "releaseYear":"1991",
+            "boxart":"images/mm4.png",
+            "images": [
+                "images/mm4Title.png",
+                "images/mm4Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"bright",
+                    "name":"Bright Man",
+                    "id":"DWN. 025"
+                },
+                {
+                    "reference":"toad",
+                    "name":"Toad Man",
+                    "id":"DWN. 026"
+                },
+                {
+                    "reference":"drill",
+                    "name":"Drill Man",
+                    "id":"DWN. 027"
+                },
+                {
+                    "reference":"pharaoh",
+                    "name":"Pharaoh Man",
+                    "id":"DWN. 028"
+                },
+                {
+                    "reference":"ring",
+                    "name":"Ring Man",
+                    "id":"DWN. 029"
+                },
+                {
+                    "reference":"dust",
+                    "name":"Dust Man",
+                    "id":"DWN. 030"
+                },
+                {
+                    "reference":"dive",
+                    "name":"Dive Man",
+                    "id":"DWN. 031"
+                },
+                {
+                    "reference":"skull",
+                    "name":"Skull Man",
+                    "id":"DWN. 032"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm5": {
+            "id":"mm5",
+            "title":"Mega Man 5",
+            "description":"Mega Man 5 used the same foundation as the other NES games while introducing Beat as a new helper character. In this game Proto Man seemingly acted as the main villain.",
+            "console":"NES",
+            "releaseYear":"1992",
+            "boxart":"images/mm5.png",
+            "images": [
+                "images/mm5Title.png",
+                "images/mm5Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"gravity",
+                    "name":"Gravity Man",
+                    "id":"DWN. 033"
+                },
+                {
+                    "reference":"wave",
+                    "name":"Wave Man",
+                    "id":"DWN. 034"
+                },
+                {
+                    "reference":"stone",
+                    "name":"Stone Man",
+                    "id":"DWN. 035"
+                },
+                {
+                    "reference":"gyro",
+                    "name":"Gyro Man",
+                    "id":"DWN. 036"
+                },
+                {
+                    "reference":"star",
+                    "name":"Star Man",
+                    "id":"DWN. 037"
+                },
+                {
+                    "reference":"charge",
+                    "name":"Charge Man",
+                    "id":"DWN. 038"
+                },
+                {
+                    "reference":"napalm",
+                    "name":"Napalm Man",
+                    "id":"DWN. 039"
+                },
+                {
+                    "reference":"crystal",
+                    "name":"Crystal Man",
+                    "id":"DWN. 040"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm6": {
+            "id":"mm6",
+            "title":"Mega Man 6",
+            "description":"Featuring a story about a robot tournament and the mysterious Mr. X, Mega Man 6 continued a lot of the traditions established by previous games. It also introduced new forms the player could transform into by combining with Rush: the Jet Mega Man and Power Mega Man forms",
+            "console":"NES",
+            "releaseYear":"1993",
+            "boxart":"images/mm6.png",
+            "images": [
+                "images/mm6Title.png",
+                "images/mm6Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"blizzard",
+                    "name":"Blizzard Man",
+                    "id":"DWN. 041"
+                },
+                {
+                    "reference":"centaur",
+                    "name":"Centaur Man",
+                    "id":"DWN. 042"
+                },
+                {
+                    "reference":"flame",
+                    "name":"flame Man",
+                    "id":"DWN. 043"
+                },
+                {
+                    "reference":"knight",
+                    "name":"Knight Man",
+                    "id":"DWN. 044"
+                },
+                {
+                    "reference":"plant",
+                    "name":"Plant Man",
+                    "id":"DWN. 045"
+                },
+                {
+                    "reference":"tomahawk",
+                    "name":"Tomahawk Man",
+                    "id":"DWN. 046"
+                },
+                {
+                    "reference":"wind",
+                    "name":"Wind Man",
+                    "id":"DWN. 047"
+                },
+                {
+                    "reference":"yamato",
+                    "name":"Yamato Man",
+                    "id":"DWN. 048"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm7": {
+            "id":"mm7",
+            "title":"Mega Man 7",
+            "description":"Mega Man 7 brought the classic series onto the Super Nintendo. It was set apart by its larger sprites, robot master stages that were split into two sets of 4, and a variety of unlockable secrets and power-ups. It introduced a shop manned by the new character Auto, as well as a new rival character: Bass (accompanied by Treble).",
+            "console":"NES",
+            "releaseYear":"1995",
+            "boxart":"images/mm7.png",
+            "images": [
+                "images/mm7Title.png",
+                "images/mm7Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"freeze",
+                    "name":"Freeze",
+                    "id":"DWN. 049"
+                },
+                {
+                    "reference":"junk",
+                    "name":"Junk Man",
+                    "id":"DWN. 050"
+                },
+                {
+                    "reference":"burst",
+                    "name":"Burst Man",
+                    "id":"DWN. 051"
+                },
+                {
+                    "reference":"cloud",
+                    "name":"Cloud Man",
+                    "id":"DWN. 052"
+                },
+                {
+                    "reference":"spring",
+                    "name":"Spring Man",
+                    "id":"DWN. 053"
+                },
+                {
+                    "reference":"slash",
+                    "name":"Slash Man",
+                    "id":"DWN. 054"
+                },
+                {
+                    "reference":"shade",
+                    "name":"Shade Man",
+                    "id":"DWN. 055"
+                },
+                {
+                    "reference":"turbo",
+                    "name":"Turbo Man",
+                    "id":"DWN. 056"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm8": {
+            "id":"mm8",
+            "title":"Mega Man 8",
+            "description":"Mega Man 8 was the first game on 32-bit hardware. It featured fluid animation, animated cutscenes, and voice-acting. It had some unique power-ups such as the Mega Ball, and split stages into two separate sections. It also introduced the character Duo.",
+            "console":"PS1",
+            "Consoles":"PS1, Saturn",
+            "releaseYear":"1996",
+            "boxart":"images/mm8.png",
+            "images": [
+                "images/mm8Title.png",
+                "images/mm8Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"tengu",
+                    "name":"Tengu Man",
+                    "id":"DWN. 057"
+                },
+                {
+                    "reference":"astro",
+                    "name":"Astro Man",
+                    "id":"DWN. 058"
+                },
+                {
+                    "reference":"sword",
+                    "name":"Sword Man",
+                    "id":"DWN. 059"
+                },
+                {
+                    "reference":"clown",
+                    "name":"Clown Man",
+                    "id":"DWN. 060"
+                },
+                {
+                    "reference":"search",
+                    "name":"Search Man",
+                    "id":"DWN. 061"
+                },
+                {
+                    "reference":"frost",
+                    "name":"Frost Man",
+                    "id":"DWN. 062"
+                },
+                {
+                    "reference":"grenade",
+                    "name":"Grenade Man",
+                    "id":"DWN. 063"
+                },
+                {
+                    "reference":"aqua",
+                    "name":"Aqua Man",
+                    "id":"DWN. 064"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm9": {
+            "id":"mm9",
+            "title":"Mega Man 9",
+            "description":"Mega Man 9 imitated the style and design of the classic NES games, taking Mega Man 2 as a jumping off point and removing the slide and charge mechanics. It also added Proto Man as a playable character, and was the first game to include DLC.",
+            "console":"Wii",
+            "consoles":"Wii, PS3, Xbox 360",
+            "releaseYear":"2008",
+            "boxart":"images/mm9.png",
+            "images": [
+                "images/mm9Title.png",
+                "images/mm9Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"concrete",
+                    "name":"Concrete Man",
+                    "id":"DWN. 065"
+                },
+                {
+                    "reference":"tornado",
+                    "name":"Tornado Man",
+                    "id":"DWN. 066"
+                },
+                {
+                    "reference":"splash",
+                    "name":"Splash Woman",
+                    "id":"DWN. 067"
+                },
+                {
+                    "reference":"plug",
+                    "name":"Plug Man",
+                    "id":"DWN. 068"
+                },
+                {
+                    "reference":"jewel",
+                    "name":"Jewel Man",
+                    "id":"DWN. 069"
+                },
+                {
+                    "reference":"hornet",
+                    "name":"Hornet Man",
+                    "id":"DWN. 070"
+                },
+                {
+                    "reference":"magma",
+                    "name":"Magma Man",
+                    "id":"DWN. 071"
+                },
+                {
+                    "reference":"galaxy",
+                    "name":"Galaxy Man",
+                    "id":"DWN. 072"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm10": {
+            "id":"mm10",
+            "title":"Mega Man 10",
+            "description":"Mega Man 10 followed Mega Man 9's approach of emulating the classic NES entries. Overall a solid game with interesting boss weapons and interesting level design. It also included both Proto Man and Bass as playable characters.",
+            "console":"Wii",
+            "consoles":"Wii, PS3, Xbox 360",
+            "releaseYear":"2010",
+            "boxart":"images/mm10.png",
+            "images": [
+                "images/mm10Title.png",
+                "images/mm10Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"blade",
+                    "name":"Blade",
+                    "id":"DWN. 073"
+                },
+                {
+                    "reference":"pump",
+                    "name":"Pump Man",
+                    "id":"DWN. 074"
+                },
+                {
+                    "reference":"commando",
+                    "name":"Commando Man",
+                    "id":"DWN. 075"
+                },
+                {
+                    "reference":"chill",
+                    "name":"Chill Man",
+                    "id":"DWN. 076"
+                },
+                {
+                    "reference":"sheep",
+                    "name":"Sheep Man",
+                    "id":"DWN. 077"
+                },
+                {
+                    "reference":"strike",
+                    "name":"Strike Man",
+                    "id":"DWN. 078"
+                },
+                {
+                    "reference":"nitro",
+                    "name":"Nitro Man",
+                    "id":"DWN. 079"
+                },
+                {
+                    "reference":"solar",
+                    "name":"Solar Man",
+                    "id":"DWN. 080"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        },
+        "mm11": {
+            "id":"mm11",
+            "title":"Mega Man 11",
+            "description":"After a long gap without any new games, Mega Man 11 marked a long waited for return to the Classic series. It introduced the Double Gear System, which allows Mega Man to temporarily increase his power, slow down time, or both.",
+            "console":"Switch",
+            "consoles":"Switch, PS4, Xbox One",
+            "releaseYear":"2018",
+            "boxart":"images/mm11.png",
+            "images": [
+                "images/mm11Title.png",
+                "images/mm11Stages.png"
+            ],
+            "robotMasters": [
+                {
+                    "reference":"block",
+                    "name":"Block Man",
+                    "id":"DWN. 081"
+                },
+                {
+                    "reference":"fuse",
+                    "name":"Fuse Man",
+                    "id":"DWN. 082"
+                },
+                {
+                    "reference":"blast",
+                    "name":"Blast Man",
+                    "id":"DWN. 083"
+                },
+                {
+                    "reference":"acid",
+                    "name":"Acid Man",
+                    "id":"DWN. 084"
+                },
+                {
+                    "reference":"tundra",
+                    "name":"Tundra Man",
+                    "id":"DWN. 085"
+                },
+                {
+                    "reference":"torch",
+                    "name":"Torch Man",
+                    "id":"DWN. 086"
+                },
+                {
+                    "reference":"impact",
+                    "name":"Impact Man",
+                    "id":"DWN. 087"
+                },
+                {
+                    "reference":"bounce",
+                    "name":"Bounce Man",
+                    "id":"DWN. 088"
+                }
+            ],
+            "newFeatures": [
+                "Introducing Mega Man, Dr. Wily, Dr. Light, and Roll",
+                "Classic Mega Man run, jump, and shoot gameplay",
+                "Non-linear stage select",
+                "Gain a weapon from each main boss defeated",
+                "Rock-Paper-Scissors style weapon system against bosses",
+                "First and only appearance of the magnet beam",
+                "First and only appearance of a points system",
+                "Only game with 6 rather than 8 Robot Masters"
+            ]
+        }
+    }
+}
