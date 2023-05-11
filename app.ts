@@ -14,10 +14,10 @@
 
 let mmData: { games: { [x: string]: any; game: any; }; };
 let content;
-const album = document.getElementById('gamesAlbum');
-const gameContainer = document.getElementById('gameContainer');
-const gamesBtn = document.getElementById('gamesBtn');
-const gameRobMas = document.getElementById('gameRobMas');
+const album = <HTMLElement>document.getElementById('gamesAlbum');
+const gameContainer = <HTMLElement>document.getElementById('gameContainer');
+const gamesBtn = <HTMLElement>document.getElementById('gamesBtn');
+const gameRobMas = <HTMLElement>document.getElementById('gameRobMas');
 
 // Get data from JSON file.
 let xhr = new XMLHttpRequest();
@@ -88,13 +88,13 @@ function displayGames() {
 
 // Games button click event
 gamesBtn!.addEventListener("click", function() {
-    if (album!.style.display === 'none') {
-        album!.style.display = 'block';
-        gameContainer!.innerHTML = "";
-        gameContainer!.style.display = 'none';
+    if (album.style.display === 'none') {
+        album.style.display = 'block';
+        gameContainer.innerHTML = "";
+        gameContainer.style.display = 'none';
         // Change text of the games button
-        gamesBtn!.style.display = 'none';
-        gamesBtn!.innerHTML = "Games"
+        gamesBtn.style.display = 'none';
+        gamesBtn.innerHTML = "Games"
         // console.log("Games")
     }
 });
@@ -184,14 +184,14 @@ function displayGame(btn: Element) {
       
 
     // Hide games
-    album!.style.display = "none";
+    album.style.display = "none";
     // document.getElementById('gamesAlbum').innerHTML = "";
     // Display game info
-    gameContainer!.innerHTML = content;
-    gameContainer!.style.display = 'block';
+    gameContainer.innerHTML = content;
+    gameContainer.style.display = 'block';
     // Change text of the games button
-    gamesBtn!.innerHTML = "&crarr; Games";
-    gamesBtn!.style.display = 'block';
+    gamesBtn.innerHTML = "&crarr; Games";
+    gamesBtn.style.display = 'block';
 }
 
 // Display Robot Masters for specific game
@@ -217,7 +217,7 @@ function displayGameRobMas(game: any) {
     
     
     // Display all games to the screen.
-    gameRobMas!.innerHTML = content;
+    gameRobMas.innerHTML = content;
 
     // Add click events to game buttons
     let gameBtns = document.getElementsByClassName('gameBtn');
@@ -237,12 +237,12 @@ document.getElementsByTagName('main')[0].addEventListener("click", toggleEasterE
 function toggleEasterEgg(event: { target: any; }) {
   const element = event.target;
   if (element.id === "strike") {
-    const hiddenImage = document.getElementById('mms');
-    if (hiddenImage!.style.display === "none") {
-      hiddenImage!.style.display = "block"
+    const hiddenImage = <HTMLImageElement>document.getElementById('mms');
+    if (hiddenImage.style.display === "none") {
+      hiddenImage.style.display = "block"
     }
     else {
-      hiddenImage!.style.display = "none"
+      hiddenImage.style.display = "none"
     }
   }
 }
